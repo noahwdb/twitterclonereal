@@ -1,0 +1,62 @@
+/* Algemene stijlen */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+}
+
+/* Header */
+header {
+    background: #35424a;
+    color: #ffffff;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Navigatie */
+nav {
+    display: flex;
+    justify-content: center;
+    background: #222;
+    padding: 10px 0;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 10px 20px;
+}
+
+nav a:hover {
+    background: #575d63;
+    border-radius: 5px;
+}
+
+/* Hoofdsectie */
+.main {
+    padding: 20px;
+    background: white;
+    margin: 20px 0;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Footer */
+footer {
+    background: #35424a;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
